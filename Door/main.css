@@ -1,0 +1,92 @@
+body
+{
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Door_Box{
+    margin: 50px 450px;
+    width : 1000px;
+    height: 700px;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Door{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    background-color: rgba(206, 94, 94, 0.521);
+    border: 3px solid white;
+    border-radius: 15px;
+    transform: skewX(-15deg);
+    overflow: hidden;
+}
+
+.Door:nth-child(19)
+{
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    background-color: rgba(206, 94, 94, 0.521);
+    border: 3px solid red;
+    border-radius: 15px;
+    transform: skewX(-15deg);
+    overflow: hidden;
+}
+
+.Door:hover{
+    background-color: aquamarine;
+    
+    transform: skewX(-15deg) scale(1.2);
+    z-index: 1;
+    
+}
+
+.Door .img{
+    width: 120%;
+    height: 120%;
+    background-size: cover;
+    background-position: center;
+    transform: translateX(-10px) skewX(15deg);
+}
+
+.Door:nth-child(1) .img{background-image: url("/images/img1.jpg");}
+.Door:nth-child(2) .img{background-image: url("/images/img2.jpg");}
+.Door:nth-child(3) .img{background-image: url("/images/img3.jpg");}
+.Door:nth-child(4) .img{background-image: url("/images/img4.jpg");}
+.Door:nth-child(5) .img{background-image: url("/images/img5.jpg");}
+.Door:nth-child(6) .img{background-image: url("/images/img6.jpg");}
+.Door:nth-child(7) .img{background-image: url("/images/img7.jpg");}
+.Door:nth-child(8) .img{background-image: url("/images/img8.jpg");}
+.Door:nth-child(9) .img{background-image: url("/images/img9.jpg");}
+.Door:nth-child(10) .img{background-image: url("/images/img10.jpg");}
+.Door:nth-child(11) .img{background-image: url("/images/img11.jpg");}
+.Door:nth-child(12) .img{background-image: url("/images/img12.jpg");}
+.Door:nth-child(13) .img{background-image: url("/images/img13.jpg");}
+.Door:nth-child(14) .img{background-image: url("/images/img14.jpg");}
+.Door:nth-child(15) .img{background-image: url("/images/img15.jpg");}
+.Door:nth-child(16) .img{background-image: url("/images/img16.jpg");}
+.Door:nth-child(17) .img{background-image: url("/images/img17.jpg");}
+.Door:nth-child(18) .img{background-image: url("/images/img18.jpg");}
+.Door:nth-child(19) .img{background-image: url("/images/img19.jpg");}
+.Door:nth-child(20) .img{background-image: url("/images/img20.jpg");}
+.Door:nth-child(21) .img{background-image: url("/images/img21.jpg");}
+.Door:nth-child(22) .img{background-image: url("/images/img22.jpg");}
+.Door:nth-child(23) .img{background-image: url("/images/img23.jpg");}
+.Door:nth-child(24) .img{background-image: url("/images/img24.jpg");}
+.Door:nth-child(25) .img{background-image: url("/images/img25.jpg");}
+.Door:nth-child(26) .img{background-image: url("/images/img26.jpg");}
+.Door:nth-child(27) .img{background-image: url("/images/img27.jpg");}
+.Door:nth-child(28) .img{background-image: url("/images/img28.jpg");}
+.Door:nth-child(29) .img{background-image: url("/images/img29.jpg");}
+.Door:nth-child(30) .img{background-image: url("/images/img30.jpg");}
+.Door:nth-child(31) .img{background-image: url("/images/img31.jpg");}
+.Door:nth-child(32) .img{background-image: url("/images/img32.jpg");}
+
+.Door_TextBox{
+    text-align: center;
+}
